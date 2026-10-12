@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --primary-900: #0F2F24;
+  --primary-700: #1E5A45;
+  --primary-500: #2F7D62;
+  --primary-300: #6FB59B;
+  --primary-100: #E6F4EF;
+
+  --neutral-900: #1C1C1C;
+  --neutral-700: #4A4A4A;
+  --neutral-500: #7A7A7A;
+  --neutral-300: #DADADA;
+  --neutral-100: #F8F9F8;
+
+  --accent-gold: #C8A24D;
+  --accent-beige: #EFE6D8;
+}
+
+body {
+  background: var(--neutral-100);
+  color: var(--neutral-900);
+}

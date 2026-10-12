@@ -9,9 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "firebase": "^12.11.0",
+    "lucide-react": "^0.555.0",
     "next": "16.4.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-hot-toast": "^2.6.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
@@ -19,5 +22,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
     "tailwindcss": "^4"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.13.6"
   }
 }
